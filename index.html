@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="app-header">
+      <h1 class="app-title">Weather</h1>
+      <p class="app-subtitle">Clima em tempo real</p>
+    </header>
+
+    <div class="search-box">
+      <input id="cityInput" class="search-input" placeholder="Digite a cidade..." autocomplete="off" />
+      <button id="searchBtn" class="search-btn">Buscar</button>
+    </div>
+
+    <div id="dropdown" class="dropdown hidden"></div>
+
+    <div class="weather-card">
+      <div id="result"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
